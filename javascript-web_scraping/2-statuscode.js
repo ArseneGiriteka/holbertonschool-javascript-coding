@@ -7,7 +7,7 @@ if (url) {
     if (error) {
       console.log('');
     } else {
-      console.log('code: ', response.statusCode);
+      console.log('code:', response.statusCode);
     }
   });
 }
